@@ -13,6 +13,15 @@ This is the visualization of the data
 ![plot](https://user-images.githubusercontent.com/112872476/193433854-e5753e25-bb33-4b8f-abf1-c26208286cb7.png)
 
 
+### Conclusion
+
+From the data, here are my conclusions for exchange rate US to IDR in the time frame from 4/4/2022 and 9/30/2022 
+
+- The highest exchange rate occured in September 29th and the lowest occured on April
+- The exchange rate on average is always rising from April - September 2022
+- The exchange rate in every month tends to always move (decline and increase) and is rarely stable.
+- The highest decline of exchange rates occurred in July
+- The average exchange rate from April untul August is around 14700 IDR
 
 
 
@@ -21,8 +30,7 @@ This is the visualization of the data
 
 
 
-
-## Here are the steps to finish this project
+## Here are the steps that guide me finished this project
 
 
 ## Dependencies
@@ -74,25 +82,3 @@ df = scrap(___) #insert url here
 ```
 
 * Bapak/Ibu juga dapat bermain dengan UI nya pada `index.html` yang dimana Bapak/Ibu dapat mengikuti comment yang ada untuk mengetahui bagian mana yang dapat diubah. 
-
-### The Final Mission
-
-Pada captsone kali ini, Bapak Ibu bisa memilih salah satu soal ini untuk dikerjakan.
-
-1. (Easy) Data Volume Penjualan Ethereum dari `https://www.coingecko.com/en/coins/ethereum/historical_data/usd?start_date=2020-01-01&end_date=2021-06-30#panel`
-
-   * Dari halaman tersebut carilah `Date`, dan `Volume`.
-   * Buat lah plot pergerakan volume perdagangan dari Ethereum. 
-
-2. (Medium) Data kurs US Dollar ke rupiah dari `https://www.exchange-rates.org/history/IDR/USD/T`
-
-    * Dari halaman tersebut carilah `harga harian`, dan `tanggal`
-    * Bualah plot pergerakan kurs USD 
-    
-3. (Hard) Data film yang rilis di tahun 2021 dari `https://www.imdb.com/search/title/?release_date=2021-01-01,2021-12-31`
-
-    * Dari Halaman tersebut carilah `judul` , `imdb rating` , `metascore`, dan `votes`
-    * Buatlah plot dari 7 film paling populer di tahun 2021.
-
-
-Happy learning! 
